@@ -1,6 +1,7 @@
 CREATE DATABASE challenge;
 GO
-
+USE challenge;
+GO
 CREATE TABLE customers (
     id int PRIMARY key IDENTITY(1,1),
 	name varchar(20) NOT NULL,
